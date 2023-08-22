@@ -1,0 +1,14 @@
+.laptop-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.laptop-table th, .laptop-table td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.laptop-table th {
+    background-color: #f2f2f2;
+}
