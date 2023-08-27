@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     async function fetchLaptops() {
       try {
-        const response = await axios.get('/api/laptops');
+        const response = await axios.get('http://127.0.0.1:5000/api/laptops');
         setLaptops(response.data);
       } catch (error) {
         console.error('Error fetching laptops:', error);
